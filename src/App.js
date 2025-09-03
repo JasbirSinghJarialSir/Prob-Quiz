@@ -72,7 +72,7 @@ export default function ProbabilityQuizGame() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen p-6">
-      <h1 className="text-xl font-bold mb-4">Probability Quiz Game 🎲</h1>
+      <h1 className="text-xl font-bold mb-4">Probability Quiz Game 🎲 : BCA 5th Sem </h1>
       <p className="mb-2">Time Left: {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}</p>
       <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-lg">
         <p className="text-lg mb-4">Q{current + 1}: {questions[current].q}</p>
@@ -84,7 +84,7 @@ export default function ProbabilityQuizGame() {
               className="bg-blue-500 text-white rounded-xl p-3 hover:bg-blue-700"
             >
               {opt}
-            </button>
+            </button> </br>
           ))}
         </div>
       </div>
